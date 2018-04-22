@@ -66,7 +66,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//9. Find a scary sound and put it in the section5 package where you put your maze picture. You can find a sound on freesound.org. Log in as leagueofamazing/code4life.
 		
 		//10. Use the code below to load your sound.  Change the file name to match the name of your sound file.  
-		AudioClip sound = JApplet.newAudioClip(getClass().getResource("163356__pacmangamer__video-distortion-malfunction.wav"));
+		AudioClip sound = JApplet.newAudioClip(getClass().getResource("131916__vartioh__loud-transmissions.wav"));
 		
 		//11. Play the scary sound. Hint: type "sound" and then a period.		
 		sound.play();
@@ -78,7 +78,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		try {
 			maze = ImageIO.read(getClass().getResource("scaryclown1.jpg"));
 		} catch (Exception e) {
-			System.err.println("Couldn't find this image: " + "scaryclown1.jpg");
+			System.err.println("scaryclown1.jpg");
 		}
 		repaint();
 	}
